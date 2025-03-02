@@ -57,4 +57,9 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
+.welcome-text {
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
