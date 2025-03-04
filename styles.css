@@ -63,3 +63,10 @@ footer a:hover {
     font-weight: bold;
     color: #000;
 }
+#about {
+    text-align: center; /* Centers the text */
+    width: 60%; /* Makes the section narrower */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 20px; /* Adds space inside the section */
+}
+
