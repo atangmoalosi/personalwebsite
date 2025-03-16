@@ -1,5 +1,4 @@
 /* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -33,6 +32,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Hero Section */
 .hero, #about {
     background-color: #DE3163;
     padding: 40px;
@@ -41,6 +41,7 @@ header nav ul li a:hover {
     margin: 20px auto;
 }
 
+/* Footer */
 footer {
     background-color: #DE3163;
     color: white;
@@ -60,6 +61,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Hobby Section */
 .hobby {
     display: flex;
     align-items: center;
@@ -89,6 +91,7 @@ footer a:hover {
     border-radius: 10px;
 }
 
+/* Contact Section */
 .contact-container {
     display: flex;
     align-items: center;
@@ -107,17 +110,27 @@ footer a:hover {
 }
 
 .contact-links {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-link {
+    display: flex;
     align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-link img {
+    width: 30px; /* Adjust image size as needed */
+    height: 30px;
+    margin-right: 10px;
 }
 
 .contact-links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    margin: 10px;
 }
 
 .contact-links a:hover {
@@ -129,6 +142,8 @@ footer a:hover {
     max-width: 500px;
     margin: 20px auto;
 }
+
+
 
 
 
