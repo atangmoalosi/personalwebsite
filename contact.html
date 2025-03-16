@@ -23,47 +23,42 @@
         <h2>Get in Touch</h2>
         <p>If you'd like to reach out to me, feel free to use the form below or contact me through other available methods.</p>
     </section>
+<section class="contact-container">
+    <div class="contact-text">
+        <h2>Get in Touch</h2>
+        <p>If you'd like to reach out to me, feel free to use the form below or contact me through other available methods.</p>
+    </div>
 
-    <section class="contact-container">
-        <div class="contact-text">
-            <h2>Contact Me</h2>
-            <p>If you'd like to reach out to me, feel free to use the form below or contact me through other available methods.</p>
-        </div>
+    <div class="contact-links">
+        <h3>Follow Me</h3>
+        <a href="https://www.instagram.com/atangmoalosi/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Instagram_2016_logo.svg/1280px-Instagram_2016_logo.svg.png" alt="Instagram" width="50">
+        </a>
+        <a href="https://www.facebook.com/share/1CBrMBPhtn/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50">
+        </a>
+        <a href="https://www.tiktok.com/@atangmoalosi" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/TikTok_logo_2018.svg" alt="TikTok" width="50">
+        </a>
+    </div>
+</section>
 
-        <div class="contact-links">
-            <a href="https://www.instagram.com/yourusername" target="_blank">
-                Instagram
-                <img src="images/instagram-icon.png" alt="Instagram Icon">
-            </a>
-            <a href="https://www.facebook.com/yourusername" target="_blank">
-                Facebook
-                <img src="images/facebook-icon.png" alt="Facebook Icon">
-            </a>
-            <a href="https://www.tiktok.com/@yourusername" target="_blank">
-                TikTok
-                <img src="images/tiktok-icon.png" alt="TikTok Icon">
-            </a>
-        </div>
-    </section>
+<section class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <section id="contact-form">
-        <h2>Contact Form</h2>
-        <form action="submit_form.php" method="POST">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
-    </footer>
+   
 </body>
 </html>
