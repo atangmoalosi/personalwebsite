@@ -19,30 +19,38 @@
         </nav>
     </header>
     
-    <section class="contact-container">
+    <!-- Flexbox for Pictures & Social Media Links -->
+    <section class="contact-content">
+        <div class="contact-images">
+            <img src="images/pic1.jpg" alt="Your Image 1">
+            <img src="images/pic2.jpg" alt="Your Image 2">
+        </div>
+
         <div class="social-links">
             <h2>Follow Me</h2>
             <a href="https://www.facebook.com/share/1CBrMBPhtn/" target="_blank">Facebook</a>
             <a href="https://www.instagram.com/atangmoalosi/" target="_blank">Instagram</a>
             <a href="https://www.tiktok.com/@yourusername" target="_blank">TikTok</a>
         </div>
+    </section>
 
-        <div class="contact-form">
-            <h2>Contact Me</h2>
-            <form action="submit_form.php" method="POST">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+    <!-- Contact Form at the Bottom -->
+    <section class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
 
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 </body>
 </html>
+
 
